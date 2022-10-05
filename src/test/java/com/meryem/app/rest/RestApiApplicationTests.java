@@ -12,15 +12,4 @@ class RestApiApplicationTests {
 	void contextLoads() {
 	}
 
-	@Test public void
-	return_welcome(){
-		Controllers controllers = new Controllers();
-		Assertions.assertEquals("   Welcome", controllers.getPage());
-	}
-
-	@Test public void
-	failing_test(){
-		Assertions.assertEquals("Welcome", 0);
-	}
-
 }
