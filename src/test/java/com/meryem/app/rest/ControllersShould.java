@@ -4,7 +4,7 @@ import com.meryem.app.rest.controller.Controllers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class DummyTest {
+public class ControllersShould {
     @Test public void
     return_welcome(){
         Controllers controllers = new Controllers();
