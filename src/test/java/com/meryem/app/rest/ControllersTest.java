@@ -12,9 +12,4 @@ public class ControllersTest {
         Controllers controllers = new Controllers();
         Assertions.assertEquals("Welcome", controllers.getPage());
     }
-
-    @Test public void
-    failing_test(){
-        Assertions.assertEquals("Welcome", 0);
-    }
 }
