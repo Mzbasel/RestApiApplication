@@ -7,14 +7,4 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 public class ControllersShould {
-    @Test public void
-    return_welcome(){
-        Controllers controllers = new Controllers();
-        Assertions.assertEquals("   Welcome", controllers.getPage());
-    }
-
-    @Test public void
-    failing_test(){
-        Assertions.assertEquals("Welcome", 0);
-    }
 }
