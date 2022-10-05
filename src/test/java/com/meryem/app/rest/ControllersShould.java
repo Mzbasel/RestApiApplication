@@ -10,4 +10,9 @@ public class ControllersShould {
         Controllers controllers = new Controllers();
         Assertions.assertEquals("welcome", controllers.getPage());
     }
+
+    @Test public void
+    failing_test(){
+        Assertions.assertEquals("Welcome", 0);
+    }
 }
