@@ -29,3 +29,9 @@ jobs:
     - name: Publish Test Report
       if: ${{ always() }}
       uses: scacap/action-surefire-report@v1
+    - name: Deploy to Heroku
+      uses: CDNievas/heroku-action@v1.0
+      with:
+        heroku_email: "meryem.sel@codurance.com"
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "meryem-rest-api-app"
