@@ -1,1 +1,1 @@
-web: java -jar ./target/rest-1-jar-with-dependencies.jar --server.port=8080
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.meryem.app.rest --server.port=$PORT
