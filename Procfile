@@ -1,1 +1,1 @@
-web: java -jar ./target/rest-1-jar-with-dependencies.jar
+web: java -jar ./target/rest-1-jar-with-dependencies.jar --port ${PORT} target/*.war
