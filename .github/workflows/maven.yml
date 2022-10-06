@@ -30,7 +30,7 @@ jobs:
       if: ${{ always() }}
       uses: scacap/action-surefire-report@v1
     - name: Deploy to Heroku
-      uses: CDNievas/heroku-action@v1.0 # This is the action
+      uses: akhileshns/heroku-deploy@v3.12.12
       with:
         heroku_email: "meryem.sel@codurance.com"
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
